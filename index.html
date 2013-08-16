@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoogleClone (not to be confused with GoogleChrome)</title>
+	<link rel="stylesheet" href="main.css" type="text/stylesheet" />
+	
+<script type="text/javascript">
+
+function focusIt()
+{
+  var mytext = document.getElementById("searchBox"); 
+  mytext.focus(); 
+}
+
+onload = focusIt;
+
+</script>
+
+</head>
+
+<body>
+	<div id="header">
+		<ul>
+			<li>+You</li>
+			<li style="color: white;">Search</li>
+			<li>Images</li>
+			<li>Maps</li>
+			<li>Play</li>
+			<li>YouTube</li>
+			<li>News</li>
+			<li>Gmail</li>
+			<li>Drive</li>
+			<li>Calendar</li>
+			<li>More</li>
+		</ul>	
+	</div>
+	
+	<div id="signin">
+		SIGN IN
+	</div>
+
+	<div id="content">
+		<div id="logo">
+			<img src="logo.png" alt="Logo" />
+		</div>
+		<div id="search">
+			<input class="searchBox" id="searchBox" type="text" name="search" />
+		</div>
+		<br />
+		<input type="button" class="button" name="google" value="Google Search" />
+		<input type="button" class="button" name="google" value="I'm Feeling Lucky" />
+	</div>
+	
+	<footer>
+		<ul>
+			<li>Advertising Programs</li>
+			<li>Business Solutions</li>
+			<li>Privacy & Terms</li>
+			<li>+Google</li>
+			<li>About Google</li>
+		</ul>
+	</footer>
+</body>
+</html>
